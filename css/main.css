@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: large;
+    color:#103472
+
+}
+
+h1, h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+menu{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header{
+      
+       background: linear-gradient(90deg, #103472 25%, #3ab379 100%);
+       color: white;
+       width: 100%;
+       text-align: right;
+}
+
+.imagin{
+    margin: 0;
+    width: 50%;
+}
+footer{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    background: linear-gradient(90deg, #3ab379 0%, #103472  100%);
+    padding: 2%;
+}
+
+.redsoc{
+     color: white;
+     padding: 1%;
+    
+}
+.fa-brands {
+    font-size: 1.5rem;
+}
+    
+.redsoc :hover {
+    color: #3ab379;
+   }  
+
+form {
+    background-color: rgb(199, 196, 196);
+    width: 50%;
+    padding: 2%;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 1%, 20%;
+    
+}
+    input[type=submit] {
+        width: 50%;
+        text-align: center;
+        background-color: rgb(18, 185, 177);
+        color: white;
+        padding: 2%;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: larger;
+        
+    }
+body {
+    background: white
+  
+}
+#tienda {
+    padding: 1.5%;
+    background-color: #3ab379 ;
+    text-decoration: none;
+    border-radius: 5%;
+    font-size: x-large;
+    float: left;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+    column-gap: normal;
+    
+}
+.menu-navegacion {
+    padding:10px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo {
+    width: 25%;
+    display: block;
+
+}
+.logo2 {
+    width: 7%;
+    display:block;
+}
+.enlaces{
+    
+}
+
+.enlaces li{
+    list-style: none;
+    display:inline-block;
+    margin: 2px;
+}
+.enlaces li :hover{
+    color: rgb(58, 179, 121);
+}
+.enlaces a{
+    text-decoration: none;
+}
