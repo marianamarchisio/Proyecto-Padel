@@ -1,61 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=, initial-scale=1.0">
-        <title>Padel Club</title>
-        <script src="https://kit.fontawesome.com/3157672780.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="icon" href="imagenes/favicon.ico" type="image/x-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="imagenes/paddle (2).png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c35f12b320.js" crossorigin="anonymous"></script>
+</head>
 <body>
-    <header>
+    
+    <header class="tienda">
         
-        <nav class="menu-navegacion contenedor">
+        <nav>
+            
             <div class="logo">
-                <a href="index.html"><img src="imagenes/logo con dibujo cortado.png" alt="Logo Padel" width="100%"></a>
+                <img src="imagenes/logo_con_dibujo-removebg-preview.png" alt="" class="editLogo">
+                <h2 class="titulo"><span>Aserradero</span> Padel Club</h2>
             </div>
-            <div class="enlaces">
-                <li><a class="nav" href="index.html"> Inicio </href></a></li>
-                <li><a class="nav" href="tienda.html"> Tienda </href></a></li>
-                <li><a class="nav" href="torneos.html"> Torneos </href></a></li>
-                <li><a class="nav" href="clases.html"> Clases </href></a></li>
-                <li><a class="nav" href="turnos.html"> Turnos </href></a></li>
-                <li><a class="nav" href="contacto.html"> Contacto </href></a></li>
-            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="Torneos.html">Torneos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
         </nav>
-       
-    </header>
-    <menu>
-        <br>
-        <br>
-        <p><h2>PROSHOP</h2></p>
-        
-        <br>
-        <br>
-        <p><a class="nav" id="tienda" href="https://www.facebook.com/aserraderopadel/shop/?referral_code=page_shop_tab&preview=1"target="_blank">VER TIENDA</href></a></p>
-        <br><br>
+
         <br><br><br>
-        <p><img class="imagin" src="Imagenes/paletas.jpg" alt="tienda paletas" width="500"></p>
-        <br>
-        <br><br>
-        <br> 
-        <br>
-        <br>
-    </menu>
-    <footer>
-        <p>
-        <a class="redsoc" href="https://www.facebook.com/aserraderopadel"target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <a class="redsoc" href="https://www.instagram.com/aserraderopadel"target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-        <a class="redsoc" href="https://wa.me/5492345659898"target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
-        </p>
-        <p>Calle 4 y 22 -25 de Mayo-Bs.As. Teléfono 02345 15 659898</p> 
-    </footer>
+        <h2 class="titulo-tienda">PRODUCTOS QUE OFRECEMOS</h2>
+        <br><br><br>
+        <section class="container">
+            
+            <div class="card">
+                <div class="card-image card-1"></div>
+                <h2>Paleta Padel Enebe RS8.1 Silver 2021</h2>
+                <p>
+                    $32.000
+                </p>
+                <a href="https://www.facebook.com/commerce/products/paleta-padel-enebe-rs81-silver-2021/4627382370619958/?ref=mini_shop_storefront&referral_code=mini_shop_profile_featured_shop_card_cta" target="_blank">Comprar</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image card-2"></div>
+                <h2>Paleta Padel Enebe Arrow -NB- 2021</h2>
+                <p>
+                    $29.000
+                </p>
+                <a href="https://www.facebook.com/commerce/products/paleta-padel-enebe-arrow-2021/4450599634986973/?ref=mini_shop_storefront&referral_code=mini_shop_profile_featured_shop_card_cta" target="_blank">Comprar</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image card-3"></div>
+                <h2>Paleta De Padel Enebe Combat Carbon 8.1</h2>
+                <p>
+                    $41.990
+                </p>
+                <a href="https://www.facebook.com/commerce/products/paleta-de-padel-enebe-combat-carbon-81/4147278678731954/?ref=mini_shop_storefront&referral_code=mini_shop_profile_featured_shop_card_cta" target="_blank">Comprar</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image card-4"></div>
+                <h2>Paleta Starvie Aquila Space Pro 2021 Padel + Funda</h2>
+                <p>
+                    $41.800
+                </p>
+                <a href="https://www.facebook.com/commerce/products/paleta-starvie-aquila-space-pro-2021-padel-+-funda/4521835661210768/?ref=mini_shop_storefront&referral_code=mini_shop_profile_featured_shop_card_cta" target="_blank">Comprar</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image card-5"></div>
+                <h2>Paleta Starvie Basalto Osiris Padel 2021 + Funda</h2>
+                <p>
+                    $50.900
+                </p>
+                <a href="https://www.facebook.com/commerce/products/paleta-starvie-basalto-osiris-padel-2021-+-funda/4374115295988618/?ref=mini_shop_storefront&referral_code=mini_shop_profile_featured_shop_card_cta" target="_blank">Comprar</a>
+            </div>
+
+            <div class="card">
+                <div class="card-image card-6"></div>
+                <h2>Mochila Paletera Padel Drop Shot Ambition Jmd</h2>
+                <p>
+                    $7499
+                </p>
+                <a href="https://www.facebook.com/commerce/products/liquidamos-mochila-paletera-padel-drop-shot-ambition-jmd/4592992970735529/?ref=mini_shop_storefront&referral_code=mini_shop_profile_featured_shop_card_cta" target="_blank">Comprar</a>
+            </div>
+        </section>
+    
+
+    </header>
+    
+    
+
 </body>
 </html>
