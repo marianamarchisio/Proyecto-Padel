@@ -4,59 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagenes/paddle-tennis-racket.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilos.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <title>Aserradero Padel Club</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="imagenes/paddle (2).png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/c35f12b320.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-    <header>
+    <header class="Inicio">
         
-        <a href="" class="logo">
-            <img src="imagenes/logo_con_dibujo-removebg-preview.png" alt="logo del Club">
-            <h2 class="logo-nombre">Aserradero Padel Club</h2>
-        </a>
-
         <nav>
-            <a class="nav-link" href="inicio.html">Inicio</a>
-            <a class="nav-link" href="tienda.html">Tienda</a>
-            <a class="nav-link" href="torneo.html">Torneos</a>
-            <a class="nav-link" href="contact.html">Contacto</a>
-        </nav>
-    </header>
+            
+            <div class="logo">
+                <img src="imagenes/logo_con_dibujo-removebg-preview.png" alt="" class="editLogo">
+                <h2 class="titulo"><span>Aserradero</span> Padel Club</h2>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </label>
 
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-    
-    <br><br>
-    <menu>
-        <div class="slider">
-            <ul>
-                <li><img class="imagen" src="imagenes/Captura de pantalla 2022-09-19 191454.png" alt=""></li>
-                <li><img class="imagen" src="imagenes/Captura de pantalla 2022-09-19 191409.png" alt=""></li>
-                <li><img class="imagen" src="imagenes/Captura de pantalla 2022-09-19 191548.png" alt=""></li>
+            <ul class="nav-menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="Torneos.html">Torneos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
+
+        </nav>
+        <div class="banner-text">
+            <h2>CLUB DEPORTIVO DE PADEL</h2>
+            <h1> Dos Pistas Panorámicas Indoors <span>Proshop + Vestuarios + Buffet</span></h1>
+            <div>
+                <a href="reserva.html" class="button1">RESERVA!</a>
+            </div>
         </div>
-    </menu>
-
-
-    <h2 class="frase1">
-                Un deporte que volvió con todo.
-    </h2>
-    <h2 class="frase1">
-        Podes tomar clases individuales, grupales o jugar 
-                con amigos, no hay excusas!
-    </h2>
-
-    <br><br><br><br>
+        
+        
+    </header>
+    
     <footer>
-        <h2 class="footer">¡Incribite hoy con tu pareja!</h2>
-        <a class="clases" href="clases.html">Clases</a>
-        <br><br><br>
+        
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/aserraderopadel" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://www.instagram.com/aserraderopadel" target="_blank"><span class="fab fa-instagram"></span></a></li>
+            <li><a href="https://wa.me/5492345659898" target="_blank"><span class="fab fa-whatsapp"></span></a></li>
+        </ul>
+        <p class="dir">Calle 4 y 22 -25 de Mayo-Bs.As. Teléfono 02345 15 659898</p>
     </footer>
-
 
 </body>
 </html>
