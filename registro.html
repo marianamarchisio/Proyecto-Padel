@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="imagenes/paddle (2).png" type="image/x-icon">
+</head>
+<body>
+    
+    <header class="reserva">
+        
+        <nav>
+            
+            <div class="logo">
+                <img src="imagenes/logo_con_dibujo-removebg-preview.png" alt="" class="editLogo">
+                <h2 class="titulo"><span>Aserradero</span> Padel Club</h2>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav-menu">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="clima.html">Clima</a></li>
+            </ul>
+
+        </nav>
+        
+        <form class="formulario2" onsubmit="return validar();">
+            <br>
+            <h1 class="titulo-form">Registrate</h1>
+            <br>
+            <div class="contenedor">
+            
+                <div class="input-contenedor">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" id="name" placeholder="Nombre">
+                    
+                
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-user icon"></i>
+                    <input type="text" id="surname" placeholder="Apellidos">
+                    
+                
+                </div>
+                
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i>
+                    <input type="email" id="email" placeholder="Email">
+                    
+                
+                </div>
+                
+                <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i>
+                    <input type="password" id="password" placeholder="Contraseña">
+                    
+                
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fa-solid fa-mobile icon"></i>
+                    <input type="number" id="telefono" placeholder="Telefono">
+                    
+
+                </div>
+
+                <input type="submit" value="Registrate" class="button">
+                
+                <br><br>
+                <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+                <p>¿Ya tienes una cuenta?<a class="link" href="reserva.html">Iniciar Sesion</a></p>
+            </div>
+        </form>
+
+        <!-- Falso Footer-->
+        <div class="contenedor2">
+            <input type="checkbox" id="btn-mas">
+            <div class="redes">
+                <a href="https://www.facebook.com/aserraderopadel" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/aserraderopadel" class="fa fa-instagram" target="_blank"></a>
+                <a href="https://wa.me/5492345659898" class="fa fa-whatsapp" target="_blank"></a>
+            </div>
+            <div class="btn-mas">
+                <label for="btn-mas" class="fa fa-plus"></label>
+            </div>
+        </div>
+
+    </header>
+    
+    
+
+    <script src="https://kit.fontawesome.com/c35f12b320.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
