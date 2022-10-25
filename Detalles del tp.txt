@@ -1,0 +1,2 @@
+Animaciones: estan en el menu del index.html y en el footer
+Maquetacion con flex: el index.html
